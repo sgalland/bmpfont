@@ -1,0 +1,6 @@
+-cp src
+-D analyzer-optimize
+--interp
+bmpfont.Data
+bmpfont.Writer
+bmpfont.Reader
