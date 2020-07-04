@@ -1,0 +1,14 @@
+{
+    "name": "bmpfont",
+    "url" : "https://github.com/sgalland/bmpfont/",
+    "license": "GPL",
+    "tags": ["bmp", "font"],
+    "description": "Cross platform support library for bitmap fonts created by the bmpfont-compiler.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["sgalland"],
+    "dependencies": {
+        "format": "3.5.0"
+    }
+  }
