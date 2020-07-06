@@ -39,17 +39,17 @@ typedef CharCodeEntry = {
 	/**
 		ASCII Char Code to assign the font glyph.
 	**/
-	var charCode:UInt;
+	@:optional var charCode:UInt;
 
 	/**
 		Width of the font glyph.
 	**/
-	var width:UInt;
+	@:optional var width:UInt;
 
 	/**
 		Height of the font glyph.
 	**/
-	var height:UInt;
+	@:optional var height:UInt;
 };
 
 /**
