@@ -1,5 +1,6 @@
 package bmpfont;
 
+import bmpfont.Data.CharCodeEntry;
 import haxe.Exception;
 import sys.io.File;
 import bmpfont.Data.Font;
@@ -20,7 +21,7 @@ class Writer {
 	public function write(outputFileName:String, fonts:Array<Font>) {
 		var data:Data = {};
 
-		data.lookupTable = fonts.map(function(f:Font) {
+		data.lookupTable = fonts.map(function(f:Font):CharCodeEntry {
 			return {charCode: f.letter.charCodeAt(0), width: f.width, height: f.height};
 		});
 
