@@ -5,31 +5,31 @@ import haxe.io.Bytes;
 /**
 	Represents the data and dimensions of a bitmap font item.
 **/
-@:structInit class Font {
+typedef Font = {
 	/**
 		The letter of glyph the font is to represent.
 	**/
-	@:optional public var letter:String;
+	@:optional var letter:String;
 
 	/**
 		Width of the font in pixels.
 	**/
-	@:optional public var width:Int;
+	@:optional var width:Int;
 
 	/**
 		Height of the font in pixels.
 	**/
-	@:optional public var height:Int;
+	@:optional var height:Int;
 
 	/**
 		Row of the bitmap file the font is on.
 	**/
-	@:optional public var row:Int;
+	@:optional var row:Int;
 
 	/**
 		Bytes that represent the bitmap font glyph.
 	**/
-	@:optional public var data:Bytes;
+	@:optional var data:Bytes;
 }
 
 /**
